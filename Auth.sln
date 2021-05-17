@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMC.Auth.API", "DMC.Auth.API\DMC.Auth.API.csproj", "{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B22D392A-88DC-4540-A071-523144B09F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMC.Core", "DMC.Core\DMC.Core.csproj", "{27564E81-C2E1-4D44-84A9-3C33370CD7F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D50F007D-0771-4631-97FF-7033FFEA9EFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E9A59FCC-7D47-4E76-87D0-A623885DAE7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27564E81-C2E1-4D44-84A9-3C33370CD7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27564E81-C2E1-4D44-84A9-3C33370CD7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27564E81-C2E1-4D44-84A9-3C33370CD7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27564E81-C2E1-4D44-84A9-3C33370CD7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06DBFAF6-2EF4-4A1C-889A-B84E416B2B9C} = {E9A59FCC-7D47-4E76-87D0-A623885DAE7C}
+		{27564E81-C2E1-4D44-84A9-3C33370CD7F7} = {B22D392A-88DC-4540-A071-523144B09F2A}
+		{E9A59FCC-7D47-4E76-87D0-A623885DAE7C} = {D50F007D-0771-4631-97FF-7033FFEA9EFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1678C61D-00BF-4A18-8053-DD984F94C25F}
+	EndGlobalSection
+EndGlobal
